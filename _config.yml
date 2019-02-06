@@ -1,11 +1,11 @@
 # Site settings
 author: Laura Felce
-title: 
+title: Fresh Syntax Errors
 header-img: img/home-bg.png
 email: crepu83@yahoo.it
 copyright_name: Laura Felce
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Coding experiences
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  PrincessLaurora
