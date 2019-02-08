@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Project"
-date:       2019-02-07 14:46:30 +0000
+date:       2019-02-07 09:46:31 -0500
 permalink:  cli_data_gem_project
 ---
 
@@ -37,9 +37,9 @@ I was starting to be quite frustrated so I have decided to go for another projec
 You can type 'list' to see the 50 top anime chart complete with individual score. Alternatively, you can simply type a number between 1 and 50 and know immediately which anime is holding that particular position. You can also check some details about the selected anime by clicking on a link.
 During this adventure I got stuck two times and I am actually feeling grateful about that because it allowed me to get a better understing of OO. I used **binding.pry** so many times to test my code and I found it so useful! There was always an hint about what I was doing wrong and summed up with the error description I could work on a solution.
 
-At first I made quite a few mistakes on my scraping part. I have started scraping straight away the element I need (for example the name of the anime) but obviosly I was getting a huge array with all the anime names! So I figured out that I need to find the collection of elements that contains all the names and do an iteration with **each**. I got the result I needed (a numbered list of anime with their individual names) but then I made another mistake...To get the other data (such as the score and the URL with the details) I was adding another two different iterations from the scraping  of another part of the page (oh Laura!). 
-Obviously I messed up the method and I was getting individual names and then the same score for everyone! 
-Then I realised that I had to iterate from a HTML element that contains all the data I was looking for and from that one do the scraping of the other elements individually. 
+At first I made quite a few mistakes on my scraping part. I started going straight away to the first element I need (getting the text of the name of the anime) but I was getting a huge array with all the anime names since the css selector was the same for each of them! So I figured out that I need to start from a parent element that contains all the names, do an iteration with **each** and then scrape again to grab the text I required.  I got the result I needed (a numbered list of anime with their individual names) but then I made another mistake...To get the other data (such as the score and the URL with the details) I was adding another two different iterations by scraping  another area of the page (oh Laura!). 
+Obviously I messed up the method and at some point I was getting individual names and then the same score for everyone! 
+Then I realised that I had to iterate over a  parent element that contains all the data I was looking for. I have noticed that the page was structured with 50 table rows with the same class so i did the iteration with each and from a single row I did another scraping to get the individual name, score and URL link of each anime.
 
 Why I didn't think about that before??? 
 
@@ -49,7 +49,7 @@ I remember that when i realised why my CLI wasn't working (despite the fact that
 ![](https://1.bp.blogspot.com/-guWNS3BNoIQ/W31YDRcRG4I/AAAAAAAAHCk/B5aTAminiXIEmDJygr8SiVzOOKw4RMwTgCLcBGAs/s1600/hackerman.jpg)
 
 
-The CLI part was easier, I have created few instance methods that run according to the the input given and then worked a little bit on the visual part (I have added some colours to make it more readable).
+I found the CLI part easier, I have created few instance methods that will be called  according to the the input given and then worked a little bit on the visual part (I have added some colours to make it more readable).
 
 Now that my project is done I couldn't agree more with Avi when he said that we should pratice a lot, not only by doing the labs assigned. I have all the theory I needed at hand to finish this project in less time but it took me longer than expected to metabolised it and completed it.
 
