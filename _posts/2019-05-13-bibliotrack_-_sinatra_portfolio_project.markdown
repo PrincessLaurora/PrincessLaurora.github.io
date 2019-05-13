@@ -31,7 +31,7 @@ I have used Bootstrap and I found the whole process very exciting. I had so much
 As previously mentioned, the Fwitter lab was very useful to improve my comprehension, in particular how to  structure the code to make sure that users can edit and delete only their own resources. My big challenge was then to start to think about what **MY APP** supposed to do and build all the functionalities according to the needs and expections of a potential user. 
 *What I would like to see in the homepage? Is the app simple to use? How can I track my lent books? Can I easily edit a book? Can I see my entire library? What happen if I leave the login fields blanks?* -  Step by step I started to code to make the user experience as smoother as possible.  
 
-So, the lesson learned is: **put yourself in the users ' shoes!**
+So, the lesson learned is: **put yourself in the users' shoes!**
 
 See you at the next adventure!
 
