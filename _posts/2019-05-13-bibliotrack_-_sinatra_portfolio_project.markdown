@@ -11,7 +11,7 @@ permalink:  bibliotrack_-_sinatra_portfolio_project
 Despite my dramatic subheading,  my experience building an CRUD, MVC app using Sinatra was less traumatising than expected. 
 
 The reason why I was expecting more nightmares &  frustations is that I found the Sinatra Unit a bit hard to metabolise. 
-I think it was due to the labs, sometimes they were adding more confusion because they were jumping too much further or there were small mistakes and a s a consequence it took me ages to complete them because I could not understand what I was doing wrong. 
+I think it was due to the labs, sometimes they were adding more confusion because they were jumping too much further or there were small mistakes and as a consequence it took me ages to complete them because I could not understand what I was doing wrong. 
 
 Fortunately the last lab, Fwitter, allowed me to learn and understand more about this type of app and its own requirements. 
 
@@ -28,7 +28,9 @@ For example, despite knowing that I wanted a feature to track lent books, I have
 Once I managed to have everthing working properly, I was very excited to try to give a nice styling to my app.
 I have used Bootstrap and I found the whole process very exciting. I had so much fun finalising the layout, even if Bootstrap is quite limited.
 
-As previously mentioned, the Fwitter lab was very useful to improve my comprehension, in particular how to  structure the code to make sure that users can edit and delete only their own resources. My big challenge was then to start to think about what **MY APP** supposed to do and build all the functionalities according to the needs and expections of a potential user. 
+As previously mentioned, the Fwitter lab was very useful to improve my comprehension, in particular how to  structure the code to make sure that users can edit and delete only their own resources(**current_user** helper method was definitely helpful as the name suggests!). 
+
+My big challenge was then to start to think about what **MY APP** supposed to do and build all the functionalities according to the needs and expections of a potential user. 
 *What I would like to see in the homepage? Is the app simple to use? How can I track my lent books? Can I easily edit a book? Can I see my entire library? What happen if I leave the login fields blanks?* -  Step by step I started to code to make the user experience as smoother as possible.  
 
 So, the lesson learned is: **put yourself in the users' shoes!**
