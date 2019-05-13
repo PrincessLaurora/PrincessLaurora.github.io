@@ -23,7 +23,7 @@ I started by creating all the structure (folder, files, environment, gems, confi
 
 For the last project I have a much clearer idea about my app functionality, on this occasion I have added more features *in itinere* (ongoing). I am aware that this may be not the correct procedure, however at the end it turned out well and the challenge made me learn more. 
 
-For example, despite knowing that I wanted a feature to track lent books, I have added it only after I tested the app to see if I could add, edit or delete a book simply with an :author and :title. Then I added two columns in :books (:receiver and :date) and I build the new functionality.  Making the addition after I have already created  and edited books through tests in shotgun prooved to be time consuming, as I had realised I had to delete everything I had created previosly otherwise I would encur in issues. 
+For example, despite knowing that I wanted a feature to track lent books, I have added it only after I tested the app to see if I could add, edit or delete a book simply with an :author and :title. Then I added two columns in :books (:receiver and :date) and I build the new functionality.  Making the addition after I have already created  and edited books through tests in shotgun prooved to be time consuming, as I had realised I had to delete everything I had created previously otherwise I would encur in issues. 
 
 Once I managed to have everthing working properly, I was very excited to try to give a nice styling to my app.
 I have used Bootstrap and I found the whole process very exciting. I had so much fun finalising the layout, even if Bootstrap is quite limited.
