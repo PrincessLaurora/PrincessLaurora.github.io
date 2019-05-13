@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bibliotrack - Sinatra Portfolio Project"
-date:       2019-05-13 12:23:16 +0000
+date:       2019-05-13 08:23:17 -0400
 permalink:  bibliotrack_-_sinatra_portfolio_project
 ---
 
